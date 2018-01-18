@@ -1,0 +1,75 @@
+.company_make_wrap{
+    padding-bottom: 50px;
+}
+.banner_wrap{
+    width: 100%;
+    height: 2.6rem;
+}
+.banner_wrap img{
+    width: 100%;
+    height: 100%;
+}
+.company_introduce_wrap{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.business_time{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.company_address{
+    padding: 10px 0;
+    display: flex;
+}
+.company_address_title{
+    width: 72px;
+}
+.company_picture_img{
+    background-color: #fff;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.company_picture_title{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+}
+.company_picture{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.picture_wrap{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.picture_wrap img{
+    width: 150px;
+    height: 150px;
+}
+.picture_list{
+    display: flex;
+}
+.big_picture{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 999;
+
+}
+.swiper-container {
+    width: 100%;
+    height: 4.92rem;
+    top: 50%;
+    margin-top: -2.46rem;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}

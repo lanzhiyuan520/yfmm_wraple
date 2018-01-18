@@ -1,0 +1,77 @@
+.personage_centre_wrap{
+    width: 100%;
+}
+.personage_centre_header{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personage_massage_wrap{
+    margin-bottom: 10px;
+}
+.personage_massage_content{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.personage_touxiang{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personage_touxiang img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.personage_massage_phone{
+    text-align: center;
+    padding-top: 10px;
+}
+.personage_center_server_wrap{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.personage_center_list{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #f5f5f5;
+    line-height: 45px;
+}
+.jiantou{
+    width: 8px!important;
+    height: 8px!important;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    font-size: 10px;
+}
+.num{
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+.my_server{
+    margin-left: 5px;
+    color: #333;
+}
+.quit_login{
+    width: 100%;
+    height: 42px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personage_center_list a{
+    display: block;
+    color: #999;
+}

@@ -1,0 +1,40 @@
+.yuesao_beautiful{
+
+}
+.yuesao_beautiful_list{
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.yuesao_beautiful{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+}
+.yuesao_beautiful_img_wrap img{
+    width: 100%;
+}
+.yuesao_beautiful_content{
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.yuesao_beautiful_title{
+    margin-bottom: 10px;
+}
+.btn_status{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 72px;
+    height: 27px;
+    margin-top: -13.5px;
+    text-align: center;
+    line-height: 27px;
+    color: #fff;
+    border-radius: 11px;
+}

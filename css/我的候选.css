@@ -1,0 +1,77 @@
+.my_candidate_wrap{
+    width: 100%;
+}
+.no_order_img{
+    display: flex;
+    justify-content: center;
+}
+.no_order_img img{
+    width: 2.76rem;
+    height: 2.16rem;
+}
+.no_order_text{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.find_yuesao_wrap{
+    display: flex;
+    justify-content: center;
+}
+.find_yuesao_wrap a{
+    display: flex;
+    width:78px ;
+    height: 28px;
+    border: 1px solid #999;
+    border-radius: 18px;
+    color: #999;
+    justify-content: center;
+    align-items: center;
+}
+.no_order_wrap{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+}
+
+.price_list{
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.screen_button_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 49%;
+    height: 42px;
+    background-color: #ff8c8c;
+    text-align: center;
+    line-height: 42px;
+    color: #ffffff;
+}
+.screen_selected{
+    background-color: #ff8c8c;
+    color: #ffffff;
+    border: 1px solid #ff8c8c;
+}
+.screen_waiter_tab{
+    background-color: #fff;
+    width: 100%;
+    height: 38px;
+    display: flex;
+}
+.tab_btn{
+    width: 50%;
+    height: 100%;
+}
+.tab_text{
+    width: 80px;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 auto;
+}
+.button_selected{
+    border-bottom: 5px solid #ff8c8c;
+}

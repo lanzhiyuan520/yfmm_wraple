@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f5f5;
+    overflow: hidden;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+     display: none;/*隐藏滚轮*/
+ }
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul{
+    list-style: none;
+}
+.p_space{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+input{
+    outline: none;
+    border: none;
+}
+
+/*字体*/
+.font-16{
+    font-size: 16px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-13{
+    font-size: 13px;
+}
+.font-12{
+    font-size: 12px;
+}
+.bold{
+    font-weight: bold;
+}
+.bold-600{
+    font-weight: 600;
+}
+.family{
+    font-family: "Yuanti SC";
+}
+.family-hei{
+    font-family: "Heiti SC";
+}
+/*颜色*/
+.color-1a{
+    color: #1a1a1a;
+}
+.color-27{
+    color: #273341;
+}
+.color-5a{
+    color: #5a6877;
+}
+.color-af{
+    color: #afb8c2;
+}
+.color-ff{
+    color: #fff;
+}
+.color-ff8{
+    color: #ff8c8c;
+}
+.color-f55{
+    color: #f5517b;
+}
+.color-f66{
+    color: #f66;
+}
+.color-999{
+    color: #999;
+}
+.color-4e4{
+    color: #4e4e4e;
+}
+.color-666{
+    color: #666;
+}
+.bgc-ff8{
+    background-color: #ff8c8c;
+}
+.bgc-999{
+    background-color: #999;
+}
+/*箭头*/
+.arrows_right{
+     display: inline-block;
+     border-right: 1px solid;
+     border-bottom: 1px solid;
+     width: 6px;
+     height: 6px;
+     -webkit-transform: rotate(45deg);
+     transform: rotate(-45deg);
+     margin-bottom: 1px;
+     margin-left: 2px;
+     color: #333;
+ }
+.arrows_left{
+    display: inline-block;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(135deg);
+    margin-bottom: 1px;
+    margin-left: 2px;
+    color: #fff;
+}
+/*服务员推荐列表*/
+.hot_title_height{
+    height: 42px;
+    line-height: 42px;
+}
+.yuesao_hot_recommend_list{
+    width: 100%;
+}
+.yuesao_message_wrap{
+    width: 75%;
+    height: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.hot_recommend_wrap{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.yuesao_hot_user{
+    border-bottom: 1px solid #e5e5e5;
+}
+.yuesao_content{
+    height: 2.325rem;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+}
+.yuesao_img_wrap{
+    width: 25%;
+    height: 100%;
+}
+.yuesao_img_wrap img{
+    width: 100%;
+    border-radius: 50%;
+}
+.yuesao_name_content{
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+}
+.yuesao_address{
+    height: 25%;
+}
+/*通用底部*/
+.bottom_nav_wrap{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+.consult{
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.relation_wrap img{
+    height:14px ;
+    width: 14px;
+}
+.immediately{
+    width: 60%;
+    height: 100%;
+    background-color: #ff8c8c;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.wrap{
+    padding-bottom: 50px;
+}
+
+/*通用头部*/
+.header_wrap{
+    width: 100%;
+    height: 50px;
+}
+.header_content{
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+}
+.jiaotou_wrap{
+    position: absolute;
+    left: 0;
+}
+
+/*文章列表*/
+.article_list_wrap{
+    background-color: #fff;
+    margin-top: 15px;
+}
+.article_list_content{
+    padding: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5
+}
+.article_img_wrap{
+    width: 33.3333%;
+}
+.article_message_wrap{
+    width: 66.6666%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article_img_wrap img{
+    width: 100%;
+    height: 100%;
+}
+.article_content{
+    display: flex;
+    height: 1.72rem;
+}
+.article_message_read{
+    display: flex;
+    justify-content: space-between;
+}
+
+

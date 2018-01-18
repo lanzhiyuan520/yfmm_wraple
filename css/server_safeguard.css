@@ -1,0 +1,58 @@
+.banner_wrap{
+    width: 100%;
+    height:2.86rem ;
+    margin-bottom: 30px;
+}
+.banner_wrap img{
+    width: 100%;
+    height: 100%;
+}
+.server_safeguard_wrap{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.server_safeguard_content{
+    box-sizing: border-box;
+    padding:0 15px 30px;
+    height: 105px;
+    display: flex;
+}
+.server_safeguard_img_wrap{
+    width: 33.3333%;
+    height: 100%;
+}
+.server_safeguard_img_wrap img{
+    width: 75px;
+    height: 75px;
+}
+.server_safeguard_text{
+    width: 66.6667%;
+    height: 100%;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.safeguard_introduction{
+    line-height: 22px;
+}
+.safeguard_title{
+    line-height: 25px;
+}
+.complaint_phone , .opinion_couple{
+    display: block;
+    width: 140px;
+    height: 100%;
+    box-shadow: 0 5px 3px #ffe3e3;
+    border-radius: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+.button_wrap{
+    display: flex;
+    height: 36px;
+}
+.button_content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}

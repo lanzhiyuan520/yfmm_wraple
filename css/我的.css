@@ -1,0 +1,88 @@
+.login_wrap{
+    width: 100%;
+    background: url("http://cdn.ayi800.com/wap/profile/bg.png");
+    background-size: contain;
+}
+.login_logo_wrap{
+    padding-top: 40px;
+}
+.login_fu_wrap{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_fu_wrap img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.experience_img_wrap{
+    width: 100%;
+    height: 1.34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience_img_wrap img{
+    width: 3.74rem;
+    height: 0.84rem;
+    padding-top: 20px;
+}
+.form_wrap{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.phone{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    color: #999;
+    box-sizing: border-box;
+}
+.phone_wrap{
+    margin-bottom: 10px;
+}
+.verification_wrap{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.verification_content{
+    width: 75%;
+    height: 100%;
+}
+.verification{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #999;
+    width: 88%;
+    height: 100%;
+}
+.send_verification{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.phone::-webkit-input-placeholder{
+    color:#999;
+}
+.verification::-webkit-input-placeholder{
+    color:#999;
+}
+.hint{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.submit{
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.submit_btn_wrap{
+    width: 100%;
+}
