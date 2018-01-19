@@ -26,7 +26,7 @@
         </div>
         <div class="form_wrap p_space">
             <div class="phone_wrap">
-                <input type="number" placeholder="手机号" class="phone font-12" pattern="^1[3|4|5|7|8]\d{9}$" maxlength="11" style="color: #999;">
+                <input type="number" placeholder="手机号" class="phone font-12" oninput="if(value.length>11)value=value.slice(0,11)"  pattern="^1[3|4|5|7|8]\d{9}$" style="color: #999;">
             </div>
             <div class="verification_wrap">
                 <div class="verification_content">
@@ -47,10 +47,7 @@
 
 <script src="./js/jquery.min.js"></script>
 <script src="./js/Adaptive.js"></script>
-    <script>
-        window.onload=function (ev) {
-            $(".login_wrap").css("height",$(window).height())
-        }
-    </script>
+<script src="./js/我的.js"></script>
+
 </body>
 </html>
