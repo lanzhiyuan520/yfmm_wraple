@@ -149,8 +149,7 @@
     line-height: 28px;
 }
 ._picture_employer_wrap{
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 10px;
     box-sizing: border-box;
     background-color: #fff;
 }
@@ -195,4 +194,20 @@
     background-color: #e5e5e5;
     position: absolute;
     left: 0;
+}
+.no_employer{
+    padding: 20px 0;
+}
+.no_employer_photo{
+    padding: 10px 0;
+}
+.no_employer_img_wrap img{
+    width: 1.5rem;
+    height: 1.14rem;
+}
+.no_employer_img_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
