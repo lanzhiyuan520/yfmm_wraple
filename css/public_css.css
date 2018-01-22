@@ -192,6 +192,11 @@ input{
     line-height: 40px;
     color: #fff;
 }
+.immediately a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 .wrap{
     padding-bottom: 50px;
 }
