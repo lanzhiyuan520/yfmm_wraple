@@ -15,16 +15,16 @@ window.onload=function(){
         var city_name = $(this).text()
         $(".city_name").html(city_name)
     })
-
-    var times=null;
-    times=setInterval(function(){
-        $(".rolling-group").animate('rolling',
-            1000,
-           "linear",
-            function(){
-                $('.rolling-group').children().first().appendTo( $('.rolling-group') );
-                $('.rolling-group').css("margin-top",0);
-            }
-        );
-    },2000);
+    times = null
+       var times = setInterval(function(){
+            $(".info-rolling").find("ul:first").animate({
+                    marginTop: "-20px"
+                },
+                2000,
+                function() {
+                    $(this).css({
+                        marginTop: "0px"
+                    }).find("li:first").appendTo(this);
+                });
+        }, 1000)
 }
