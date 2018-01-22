@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/public_css.css">
+    <style>
+        .not_found_wrap{
+            width: 100%;
+        }
+        .img_wrap{
+
+        }
+        .img_wrap img{
+            width: 70px;
+            height: 18px;
+        }
+        .not_found_content{
+            width: 100%;
+            position: absolute;
+            top: 35%;
+            left: 0;
+        }
+        .not_found_content img{
+            width: 2.76rem;
+            height: 0.84rem;
+        }
+        .not_found_img_wrap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mistake{
+            margin-top: 15px;
+            text-align: center;
+        }
+        .go_back_index{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .go_back{
+            display: flex;
+            width: 104px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="not_found_wrap">
+        <div class="header_wrap p_space bgc-ff8" >
+            <div class="header_content">
+                <div class="jiaotou_wrap">
+                    <span class="arrows_left"></span>
+                </div>
+                <div class="color-ff font-16 bold img_wrap">
+                    <img src="./img/wap-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="not_found_content">
+            <div class="not_found_img_wrap">
+                <img src="./img/not_found.png" alt="">
+            </div>
+            <div class="mistake">
+                <span class="font-14 color-af">出错啦，没有找到您访问的页面</span>
+            </div>
+            <div class="go_back_index">
+                <a href="./index.html" class="go_back bgc-ff8 color-ff font-16">返回首页</a>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/Adaptive.js"></script>
+    <script>
+        window.onload=function (ev) {
+            $(".not_found_wrap").css("height",$(window).height())
+
+        }
+    </script>
+</body>
+</html>
