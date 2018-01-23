@@ -120,6 +120,17 @@ input{
     margin-left: 2px;
     color: #fff;
 }
+.arrows_bottom{
+    display: inline-block;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 9px;
+    height: 9px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
 /*服务员推荐列表*/
 .hot_title_height{
     height: 42px;
