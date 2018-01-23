@@ -171,6 +171,7 @@ input{
     display: flex;
     position: fixed;
     bottom: 0;
+    box-shadow: 0 0 3px #ccc;
 }
 .consult{
     width: 40%;
@@ -180,6 +181,14 @@ input{
     flex-direction: column;
     align-items: center;
 }
+.consult a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
 .relation_wrap img{
     height:14px ;
     width: 14px;
@@ -252,4 +261,45 @@ input{
     justify-content: space-between;
 }
 
+/*底部2*/
+.bottom_nav_content{
+    width: 50%;
+    height: 100%;
+}
+._immediately-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collect_content,.consult_content{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
 
+}
+.collect_content a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collect_border{
+    border-right: 1px solid #e5e5e5;
+}
+.consult_content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom_nav_content{
+    display: flex;
+}
+.consult_img_wrap img{
+    height:14px ;
+    width: 14px;
+}
