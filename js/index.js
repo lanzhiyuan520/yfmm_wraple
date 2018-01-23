@@ -4,6 +4,8 @@ window.onload=function(){
         loop: false,
         // 如果需要分页器
         pagination: '.swiper-pagination',
+        autoplay : 2000,
+        autoplayDisableOnInteraction:false
 
     });
    $(".city_select").click(function(){
