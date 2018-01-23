@@ -32,4 +32,8 @@ window.onload=function(){
     $("._picture_employer_picture").click(function () {
         $(".big_picture").show()
     })
+    $(".open_impression").click(function () {
+        $(this).parents(".user_impression_wrap").hide()
+        $(this).parents(".user_impression_wrap").siblings(".user_impression_wrap").show()
+    })
 }
