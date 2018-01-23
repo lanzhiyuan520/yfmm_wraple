@@ -175,6 +175,7 @@
     display: block;
 }
 .user_impression_wrap{
+    position: relative;
     background-color: #fff;
     margin-top: 10px;
 }
@@ -212,4 +213,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.open_impression{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.close_impression{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
 }
