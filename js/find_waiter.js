@@ -25,4 +25,16 @@ window.onload=function(){
         $(".waiter_list").eq(index).show()
         $(".waiter_list").eq(index).siblings().hide()
     })
+    $(".icon").click(function () {
+        var icon_index = $(this).index()
+        $(this).hide().siblings().show()
+        $(".waiter_list_content").eq(icon_index).show().siblings().hide()
+        if (icon_index == 0){
+            $(".waiter_list_content").eq(1).show().siblings().hide()
+        }else{
+            $(".waiter_list_content").eq(0).show().siblings().hide()
+        }
+
+
+    })
 }
