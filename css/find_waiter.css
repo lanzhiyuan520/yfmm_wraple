@@ -135,3 +135,35 @@
     line-height: 42px;
     margin-bottom: 10px;
 }
+.icon_picture{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+}
+.icon_picture i{
+    font-size: 40px;
+    color: #ff8c8c;
+}
+.waiter_header_img_wrap{
+    width: 50%;
+}
+.waiter_img_content{
+    padding: 5px;
+}
+.waiter_img{
+    background-color: #e5e5e5;
+    width: 100%;
+
+}
+.waiter_img img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+
+}
+.waiter_img_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
