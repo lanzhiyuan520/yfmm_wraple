@@ -1,4 +1,5 @@
 window.onload=function(){
+    var index;
     $(".city_select").click(function(){
         $(".citys_wrap").toggle()
     })
@@ -21,7 +22,7 @@ window.onload=function(){
     $(".tab_btn").click(function () {
         $(this).children(".tab_text").addClass("button_selected")
         $(this).siblings().children(".tab_text").removeClass("button_selected")
-        var index = $(this).index()
+        index = $(this).index()
         $(".waiter_list").eq(index).show()
         $(".waiter_list").eq(index).siblings().hide()
     })
@@ -31,8 +32,10 @@ window.onload=function(){
         $(".waiter_list_content").eq(icon_index).show().siblings().hide()
         if (icon_index == 0){
             $(".waiter_list_content").eq(1).show().siblings().hide()
+            $(".waiter_list_content").eq(3).show().siblings().hide()
         }else{
             $(".waiter_list_content").eq(0).show().siblings().hide()
+            $(".waiter_list_content").eq(2).show().siblings().hide()
         }
 
 
