@@ -23,8 +23,7 @@ window.onload=function(){
         $(this).children(".tab_text").addClass("button_selected")
         $(this).siblings().children(".tab_text").removeClass("button_selected")
         index = $(this).index()
-        $(".waiter_list").eq(index).show()
-        $(".waiter_list").eq(index).siblings().hide()
+        $(".waiter_list").eq(index).show().siblings().hide()
     })
     $(".icon").click(function () {
         var icon_index = $(this).index()
@@ -37,7 +36,5 @@ window.onload=function(){
             $(".waiter_list_content").eq(0).show().siblings().hide()
             $(".waiter_list_content").eq(2).show().siblings().hide()
         }
-
-
     })
 }
